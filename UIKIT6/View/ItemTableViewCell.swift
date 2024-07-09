@@ -71,9 +71,11 @@ final class ItemTableViewCell: UITableViewCell {
     }
     
     override func prepareForReuse() {
+        print("reuse")
         mainImage.image = nil
         descriptionLabel.text = nil
         nameLabel.text = nil
+        photosStackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
     }
     
     func configure(with item: Item) {
