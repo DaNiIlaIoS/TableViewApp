@@ -46,13 +46,20 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ItemTableViewCell", for: indexPath) as? ItemTableViewCell else { return UITableViewCell() }
+        let item = items[indexPath.row]
         
-        cell.configure(with: items[indexPath.row])
+        cell.configure(with: item)
         cell.selectionStyle = .none
         
         cell.completion = { [weak self] in
             let secondVC = SecondViewController()
-            secondVC.title = self?.items[indexPath.row].title
+            
+            secondVC.title = item.title
+            secondVC.titleLabel.text = item.title
+            secondVC.mainImage.image = UIImage(named: item.mainImage)
+            secondVC.descriptionLabel.text = item.description
+            secondVC.photos = item.photos
+            
             self?.navigationController?.pushViewController(secondVC, animated: true)
         }
         

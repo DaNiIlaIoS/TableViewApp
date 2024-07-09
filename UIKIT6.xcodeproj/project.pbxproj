@@ -16,6 +16,8 @@
 		48A9D28D2C3D59FC004D9AC9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D28C2C3D59FC004D9AC9 /* ItemTableViewCell.swift */; };
 		48A9D2912C3D5AB0004D9AC9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D2902C3D5AB0004D9AC9 /* Item.swift */; };
 		48A9D2942C3D820A004D9AC9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D2932C3D820A004D9AC9 /* SecondViewController.swift */; };
+		48A9D2962C3D8697004D9AC9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D2952C3D8697004D9AC9 /* ThirdViewController.swift */; };
+		48A9D2982C3D9FFA004D9AC9 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D2972C3D9FFA004D9AC9 /* PhotosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		48A9D28C2C3D59FC004D9AC9 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		48A9D2902C3D5AB0004D9AC9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		48A9D2932C3D820A004D9AC9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		48A9D2952C3D8697004D9AC9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		48A9D2972C3D9FFA004D9AC9 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				48A9D28C2C3D59FC004D9AC9 /* ItemTableViewCell.swift */,
+				48A9D2972C3D9FFA004D9AC9 /* PhotosTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 			children = (
 				48A9D2792C3D2BB0004D9AC9 /* ViewController.swift */,
 				48A9D2932C3D820A004D9AC9 /* SecondViewController.swift */,
+				48A9D2952C3D8697004D9AC9 /* ThirdViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 				48A9D2942C3D820A004D9AC9 /* SecondViewController.swift in Sources */,
 				48A9D2912C3D5AB0004D9AC9 /* Item.swift in Sources */,
 				48A9D28D2C3D59FC004D9AC9 /* ItemTableViewCell.swift in Sources */,
+				48A9D2962C3D8697004D9AC9 /* ThirdViewController.swift in Sources */,
+				48A9D2982C3D9FFA004D9AC9 /* PhotosTableViewCell.swift in Sources */,
 				48A9D27A2C3D2BB0004D9AC9 /* ViewController.swift in Sources */,
 				48A9D2762C3D2BB0004D9AC9 /* AppDelegate.swift in Sources */,
 				48A9D2782C3D2BB0004D9AC9 /* SceneDelegate.swift in Sources */,

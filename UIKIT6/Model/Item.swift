@@ -17,6 +17,6 @@ struct Item: Identifiable {
     static func mockObject() -> [Item] {
         [Item(title: "Имя Фамилия", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt", mainImage: "img1", photos: ["img2", "img3", "img4"]),
          Item(title: "Имя Фамилия 2", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt", mainImage: "img5", photos: ["img6", "img7", "img8"]),
-         Item(title: "Имя Фамилия 3", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt", mainImage: "img9", photos: ["img10", "img11", "img12"]),]
+         Item(title: "Имя Фамилия 3", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt", mainImage: "img9", photos: ["img10", "img11", "img12"])]
     }
 }
