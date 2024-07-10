@@ -108,7 +108,8 @@ final class ItemTableViewCell: UITableViewCell {
     
     private func setupConstraints() {
         cellView.snp.makeConstraints { make in
-            make.top.bottom.equalToSuperview().inset(15)
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview().inset(30)
             make.leading.trailing.equalToSuperview().inset(30)
         }
         mainImage.snp.makeConstraints { make in
