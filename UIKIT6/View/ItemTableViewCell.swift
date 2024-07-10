@@ -55,7 +55,7 @@ final class ItemTableViewCell: UITableViewCell {
         button.setTitle("Show Details", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .black
-        button.layer.cornerRadius = 30
+        button.layer.cornerRadius = 20
         return button
     }()
     
