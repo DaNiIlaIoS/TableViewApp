@@ -64,6 +64,7 @@ final class ItemTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupUI()
+        contentView.removeFromSuperview()
     }
     
     required init?(coder: NSCoder) {
@@ -94,7 +95,7 @@ final class ItemTableViewCell: UITableViewCell {
     }
     
     private func setupUI() {
-        contentView.addSubview(cellView)
+        addSubview(cellView)
         
         cellView.addSubview(mainImage)
         cellView.addSubview(photosStackView)
